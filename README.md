@@ -1,8 +1,12 @@
-# HE_examples
-Examples for hierarchical explanations (SST2 and MNLI).
+# Visualization examples
+Visualization examples for hierarchical explanations of HE_loo and HE_lime on SST-2 and MNLI datasets.
 
-The visualization samples can also be downloaded and viewed from the following anonymous network disk links：
+# Implementation
+The implementation of HE_loo and HE_lime.
 
-SST-2: https://1drv.ms/u/s!AspYRo9fcX7Mat2RrbJo2jiNUZg?e=IaOEY0
+#
+Requirement
+The implementations are based on the Huggingface’s transformer model (\url{https://github.com/huggingface/transformers}) and the official code repository of LIME (\url{https://github.com/marcotcr/lime}).
 
-MNLI: https://1drv.ms/u/s!AspYRo9fcX7Mgi4FR8Z10L1iahyO?e=vB9ty6
+Among them, the lime-text.py and line_base of lime in the LIME library have been rewritten. After installing lime, they need to be replaced with the rewritten files.
+
