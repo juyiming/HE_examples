@@ -1,3 +1,5 @@
+Code and examples for paper: A Hierarchical Explanation Generation Method Based on Feature Interaction Detection
+
 # Visualization 
 Visualization examples for hierarchical explanations of HE_loo and HE_lime on SST-2 and MNLI datasets.
 
